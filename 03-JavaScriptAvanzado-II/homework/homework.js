@@ -9,11 +9,11 @@ EJEMPLO
 const nuevoContador = counter()
 nuevoContador()     // 1
 nuevoContador()     // 2
+ */
 
-const otroContador = counter()
-otroContador()      // 1
-otroContador()      // 2 */
-function counter() {}
+function counter() {
+}
+
 
 /* Ejercicio 2
 Tu tarea aquí es lograr, mediante un closure, que cacheFunction actúe como una memoria caché para el callback 
@@ -33,9 +33,9 @@ otra vez cálculos que ya se hicieron anteriormente.
   squareCache(5)    // invocará a square(5), almacenará el resultado y lo retornará
   squareCache(5)    // no volverá a invocar a square, simplemente buscará en la caché cuál es el resultado de square(5) y lo retornará (tip: si usaste un objeto, podés usar hasOwnProperty) */
 
-function cacheFunction(cb) {}
-
-//----------------------------------------
+function cacheFunction(cb) {
+  
+}
 
 // Bind
 
@@ -50,7 +50,8 @@ var alumno = {
 };
 
 function getNombre() {
-  return this.nombre;}
+  return this.nombre;
+}
 
 /*
   Ejercicio 3
